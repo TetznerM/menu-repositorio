@@ -1,0 +1,324 @@
+.branco { color: #ffffff;}
+
+.verde{ color: #2bbdce;}
+
+.vermelho { color: #e93654;}
+
+body{
+    background-image: linear-gradient(to bottom, #ffffff, #f8f8f8, #f1f1f1, #eaeaea, #e3e3e3);
+}
+
+
+.title{
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.title.center{
+    text-align: center;
+}
+
+.content {
+    float: left;
+    width: 92%;
+    margin: 0 4%;
+    padding: 20px 0;
+}
+
+.main_header{
+    background: #ffffff; z-index: 1;
+}
+
+.main_header .content {
+    float: left;
+    padding: 0px 0;
+}
+
+.main_header.fixed{
+    display: block;
+    position: fixed;
+    z-index: 99;
+}
+
+.main_header_logo{
+    font-size: 0;
+    float: left;
+
+}
+
+.main_header_logo img{
+    height: 100px;
+}
+
+.main_header_nav{
+    display: flex;
+    margin-left: 60%;
+}
+li {
+    margin-left: 6%;
+    margin-top: 4%;
+    display: inline-block;
+    text-decoration: none;
+}
+li a{
+    text-decoration: none;
+    font-size: 16px;
+    size: 20px;
+    color: #646464;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main_content_container img{
+    margin-left: -5%;
+    width: 1584px;
+    margin-top: -1.6%;
+}
+h1{
+    position: absolute;
+    margin-top: 14.2%;
+    margin-left: 26%;
+    font-size: 86px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px rgb(95, 94, 94);
+}
+p{
+    position: absolute;
+    font-size: 18px;
+    margin-top: 21%;
+    margin-left: 27%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 14.2px;
+    
+}
+
+li a:hover{
+    color: #ffffff;
+    background-color: #2bbdce;
+    border: 10px solid #2bbdce;
+    border-radius: 10%;
+
+}
+h2{
+    font-size: 13px;
+}
+.titulo h2{
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2bbdce;
+    text-align: center;
+}
+.musculacao{
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 350px;
+    width: 360px;
+    box-shadow: 1px 1px 1px 1px #d9d9d9;
+    border-radius: 4px;
+    margin-left: 15%;
+    background-color: #ffffff;
+}
+.musculacao img{
+    width: 360px;
+}
+h2{
+    color: #a5a5a5;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 8px;
+}
+ h3{
+    color: #2bbdce;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 8px;
+}
+.esportes{
+    display: flex;
+    justify-content: space-between
+
+}
+.lutas{
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 350px;
+    width: 360px;
+    box-shadow: 1px 1px 1px 1px #d9d9d9;
+    border-radius: 4px;
+    margin-left: 1%;
+    background-color: #ffffff;
+}
+.lutas img{
+    width: 360px;
+}
+.ginástas {
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 350px;
+    width: 360px;
+    box-shadow: 1px 1px 1px 1px #d9d9d9;
+    border-radius: 4px;
+    margin-left: 1%;
+    background-color: #ffffff;
+}
+.ginástas img{
+    width: 360px;
+}
+.imagens{
+    display: flexbox;
+    margin-top: 6%;
+}
+.imagens img{
+    height: 200px;
+    width: 300px;
+    border:solid 5px #ffffff;
+    border-radius: 4%;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.galeria h2{
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    justify-items: center;
+}
+.galeria {
+    text-align: center;
+    margin-top: 22%;
+    background-color: #2bbdce;
+    height: 720px;
+}
+.texts{
+    text-align: center;
+}
+.textbox {
+    display: flex;
+    flex-direction: column;
+}
+.text2{
+    display: flex;
+    align-content: center;
+    width: 1400px;
+}
+.textinf h3{
+    font-size: 14px;
+    color: #646464;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 8%;
+}
+.textbox input {
+    width: 600px;
+    height: 30px;
+}
+.textboxes {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8%;
+    margin-top: 1%;
+}
+.email {
+    margin-top: 2%;
+}
+.mensagem {
+    margin-top: 2%;
+    width: 600px;
+    height: 160px;
+}
+.nome{
+    border-radius: 1%;
+    border: 1px solid #747474;
+}
+.email{
+    border-radius: 1%;
+    border: 1px solid #747474;
+}
+.texts h2{
+    color: #2bbdce;
+    font-size: 32px;
+    margin-top: 4%;    
+}
+.button-enviar{
+    margin-top: 2%;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    font-size: 16px;
+}
+.fim{
+    display: flex;
+    justify-content: space-around;
+    background-color: #2bbdce;
+    margin-top: 6%;
+    height: 300px;
+}
+.fim h2{
+    color: #ffffff;
+    font-size: 22px;
+    font-family:Arial, Helvetica, sans-serif;
+    border-bottom: 0.01px solid #ffffff;
+    width: 300px;
+}
+.fim div{
+    margin-top: 4%;
+}
+.div-atendimento h3{
+    color: #ffffff;
+    font-size: 12px;
+}
+.div-menu h3{
+    color: #ffffff;
+    font-size: 12px;
+}
+.div-rSociais h3{
+    color: #ffffff;
+    font-size: 12px;
+}
+.div-newsletter{
+    color: #ffffff;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+}
+.copyright h2{
+    text-align: center;
+    color: #646464;
+}
+.div-newsletter input{
+    margin-left: 8px;
+    border: 0;
+    border-bottom: 1px solid #646464;
+    outline: 0;
+    background: none;
+    font-size: 14px;
+}
+.seuemail {
+    margin-top: 8%;
+}
+.rSociais i{
+    border-bottom: 4px solid #ffffff;
+}
+.menu i{
+    border-bottom: 4px solid #ffffff;
+}
+.newsletter i{
+    border-bottom: 4px solid #ffffff;
+}
+.atendimento i{
+    border-bottom: 4px solid #ffffff;
+}
+.fim i{
+    color: #ffffff;
+    margin-right: 1%;
+}
+.textinf i{
+    margin-right: 1%;
+}
+
+
+
+
+
+
